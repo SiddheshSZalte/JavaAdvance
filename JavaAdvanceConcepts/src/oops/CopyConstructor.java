@@ -10,8 +10,7 @@ class student{
 		this.name = name;
 		this.age = age;
 	}
-	student(){
-		
+	student(){	
 	}
 }
 
