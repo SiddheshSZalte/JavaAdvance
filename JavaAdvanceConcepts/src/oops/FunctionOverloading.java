@@ -6,7 +6,7 @@ class Student3{
 		System.out.println("Name:"+name);
 			}
 	void PrintInfo(int age,String name) {
-		System.out.println("Age:"+age);
+		System.out.println("Name:"+name+" Age:"+age);
 			}
 	void PrintInfo(String name,int age) {
 		System.out.println("Name:"+name+" Age:"+age);
@@ -15,16 +15,21 @@ class Student3{
 		return age+1;
 			}
 	
-	
-}
+	}
+	// function overloading by changing return type but function overloading
+	//cannot happen by changing return type only ,you need to change the parameters
+	//passed in the functions 
+ 
+
 public class FunctionOverloading {
 	public static void main(String args[]) {
 		Student3 s1 = new Student3();
 		s1.PrintInfo("Siddhesh");
-	    s1.PrintInfo("Siddhesh",22);
+	    s1.PrintInfo("Pranav",22);
 	    int newage =s1.PrintInfo(24);
+	    s1.PrintInfo(20,"Aditya");
 	    System.out.print("NewAge:"+newage);
-		
-	}
+	
+		}
 
 }
