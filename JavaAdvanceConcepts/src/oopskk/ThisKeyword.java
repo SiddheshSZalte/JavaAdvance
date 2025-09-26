@@ -3,9 +3,10 @@ class Square {
 	int length ;
 	Square(int length){
 		length = length;// this creates ambiguity and assigns length to itself 
-		this.length = length;	
+		this.length = length;// this keyword	
 	}
 	Square(){
+		// this method (always needs to be first line of constructor 
 		this(12);// can be used to call another constructor from a constructor
 	}
 }
