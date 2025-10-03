@@ -10,7 +10,11 @@ class Circle extends Shapes{
 	void area() {
 		System.out.println("Area of circle");
 	}
+	void superarea() {
+		super.area();
+	}
 }
+
 
 public class OverRiding {
 	public static void main(String args[]) {
