@@ -16,7 +16,8 @@ public static void main(String args[]) {
 	Human h1 = new Human(20,"Siddhesh",20);
      Human h2 = new Human(20,"Aditya",12);
  	 System.out.println(Human.population);// the latest population passed is same for 
- 	  // all objects 
+ 	  // all objects , though h1 was passed with 20 as value still it will output 12
+ 	  // as it is static and object independent
      System.out.println(Human.population);
      
 }}
