@@ -3,6 +3,7 @@ interface Engine{
 	 int a = 10;// by variables are static and final hence needs to initialized
  void start();// by default abstract methods
  void stop();
+ void brake();
 }
 interface Brakes{
 	void brake();
